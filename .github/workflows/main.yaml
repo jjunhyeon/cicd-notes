@@ -8,7 +8,7 @@ on:
     branches:
       - main
 env:
-  DOCKER_REPOSITORY: kimjunhyeon/cicd-notes
+  DOCKER_REPOSITORY: kimjunhyeon/docker-repo
   DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
   DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
 
